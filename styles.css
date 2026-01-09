@@ -8,11 +8,11 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
 }
 body {
   width: 100vw;
   height: 100vh;
-  margin: 0;
   padding: 0;
   background-color: var(--slate300);
 }
@@ -28,7 +28,7 @@ main {
   border-radius: 20px;
   padding: 16px 16px 40px;
   max-width: 320px;
-  box-shadow: 3px 3px 12px var(--slate500);
+  box-shadow: 0px 25px 25px rgb(0, 0, 0, 0.0477);
 }
 img {
   border-radius: 10px;
@@ -45,14 +45,16 @@ h1 {
   color: var(--slate900);
   font-size: 22px;
   font-weight: 700;
+  /* margin: 0 0 16px 0; */
   margin-bottom: 16px;
-  margin: 0 0 16px 0;
+  line-height: 1.2;
 }
 p {
   color: var(--slate500);
   font-size: 15px;
   font-weight: 400;
   margin: 0;
+  line-height: 1.2;
 }
 footer {
   position: fixed;
